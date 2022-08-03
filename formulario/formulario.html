@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <main>
+        <div class="corpo">
+            <section>
+                <header>
+                    <h2>Formulário de Candidatura de Emprego</h2>
+                </header>
+                <section>
+                    <p>Obrigado pelo seu interesse em trabalhar conosco. Por favor, confira abaixo as oportunidades de
+                        trabalho disponíveis, que atendem aos seus critérios e envie sua candidatura preenchendo o
+                        Formulário de Candidatura de Emprego.</p>
+                    <p></p>
+                    <hr>
+                </section>
+                <section>
+                    <form action="" method="get" id="form">
+                        <!--NOME-->
+                        <div class="nome">
+                            <label>
+                                Nome:
+                            </label>
+                            <div class="nome01">
+                                <input type="text" id="nome1" class="nome2" placeholder="Nome">
+                            </div>
+                            <div class="ultimo1">
+                                <input type="text" id="nome" class="ultimo" placeholder="Ultimo">
+                            </div>
+
+                        </div>
+                        <!--E-mail-->
+                        <div class="email">
+                            <label>
+                                E-mail:
+                            </label>
+                            <input type="text" id="email1" class="email1" placeholder="exemplo@hotmail.com.br" required>
+                        </div>
+                        <!--Vagas-->
+                        <div class="vagas">
+                            <label>
+                                Para qual vaga você <br> deseja se candidatar?
+                            </label>
+                            <select id="vaga">
+                                <option value="vazio" selected>Selecione uma opção</option>
+                                <option value="Front-end">Dev Front-end</option>
+                                <option value="Back-end">Dev Back-end</option>
+                                <option value="Full-stack">Dev Full-stack</option>
+                            </select>
+                        </div>
+                        <br>
+                        <!--Data inicio-->
+                        <div class="data">
+                            <label>
+                                Data de inicio disponível:
+                            </label>
+                            <input type="date" class="data_inicio" id="data_inicio">
+                        </div>
+                        <!--Situação-->
+                        <div class="situação">
+                            <label>
+                                Qual seu status profissional
+                            </label>
+                            <input type="radio" name="situ" id="empregado" value="empregado">
+                            <label:for id="situ"></label:for>
+                            Empregado
+                            <input type="radio" name="situ" id="desempregado" value="desempregado">
+                            Desempregado
+                            <input type="radio" id="autonomo" name="situ" value="autonomo">
+                            Autônomo
+                            <input type="radio" id="estudante" name="situ" value="estudante">
+                            Estudante
+                        </div>
+                        <!--currículo up-->
+                        <div class="curriculo">
+
+                            <label for="arquivo" class="arquivo">
+                                Envie o PDF do seu currículo
+                                <input type="file" name="arquivo" id="arquivo" accept="application/pdf">
+
+                            </label>
+                        </div>
+                        <!--currículo preview-->
+                        <div class="curPrev">
+                            <embed id="preview" type="application/pdf" />
+                        </div>
+                        <!--Descrição-->
+                        <div class="descriçao">
+                            <p>
+                                Rediga uma breve descrição de seu perfil profissional:
+                            </p>
+                            <textarea name="perfil" id="perfil1" cols="90" rows="10"
+                                placeholder="Seja breve e objetivo..."></textarea>
+                        </div>
+                        <!--botão-->
+                        <div class="botao">
+                            <input type="submit" value="Enviar Formulário" class="bot">
+                        </div>
+                    </form>
+                    <div id="container">
+
+                    </div>
+                </section>
+            </section>
+        </div>
+        <footer>
+            <p>&copy;Todos os diretos reservado a Felipe Pereira da Silva 2021 </p>
+        </footer>
+    </main>
+    <script src="preview.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

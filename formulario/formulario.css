@@ -1,0 +1,242 @@
+body{
+    margin:0;
+}
+main{
+    width:100%
+}
+.corpo{
+    width:800px;
+    margin:0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.5);
+    padding-left:25px;
+    padding-right:20px;
+    background-color: rgb(241, 248, 252);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+header h2{
+    border-radius: 10px;
+    display:inline-block;
+    background-color:rgb(68, 136, 226);
+    color:#ffffff;
+    padding:5px 20px 5px 20px;
+    font-size:25pt; 
+}
+section p{
+    line-height: 30px;
+    font-size: 15pt;
+}
+section .nome{
+    padding:10px
+}
+section .nome2{
+    width: 180px;    
+}
+.nome label{
+    padding-right:150px;
+}
+section .nome01{
+    padding: 0px 55px 0px 0px;
+    display:inline-block;
+}
+section .ultimo{
+    width:180px;
+}
+section .ultimo1{
+    display:inline-block;
+    padding:0px 0px 0px 55px;
+}
+.email{
+    padding:10px;
+    padding-top:30px;
+}
+.email label{
+    padding-right: 148px;
+}
+.email .email1{
+    width:474px;
+    border-radius:10px;
+    height:30px;
+    font-size: 13pt;
+    padding-left:10px;
+    border: solid 0.5px #000000;
+}
+input{
+    box-sizing: border-box;
+}
+input[type="text"]:focus{
+    outline:none;
+    border: solid 2px rgb(68, 136, 226);
+}
+.nome2{
+    border-radius:10px;
+    height:30px;
+    font-size: 13pt;
+    padding-left:10px;
+    border: solid 0.5px #000000;
+}
+.ultimo{
+    border-radius:10px;
+    height:30px;
+    font-size: 13pt;
+    padding-left:10px;
+    border: solid 0.5px #000000;
+}
+.vagas{
+    padding-top: 10px;
+}
+.vagas label{
+    padding-right:50px ;
+}
+.vagas select{
+    width:474px;
+    border-radius:10px;
+    height:35px;
+    font-size: 13pt;
+    border: solid 0.5px #000000;
+    text-align: center;
+}
+.data{
+    padding-top:30px;
+    padding-bottom:20px;
+}
+.data label{
+    padding-right:30px
+}
+.data .data_inicio{
+    border-radius:8px;
+    height:30px;
+    font-size: 12pt;
+    border: solid 0.5px #000000;
+    padding-left:10px;
+}
+input[type="date"]:focus{
+    outline:none;
+    border: solid 2px rgb(68, 136, 226);
+}
+.situação input[type="radio"]{
+    width:15px;
+    height:15px;
+    margin-left: 11px;
+}
+.situação{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.curriculo{
+    padding: 40px 0px 40px 20px;
+}
+label.arquivo{
+    padding:20px 220px 20px 220px;
+    border: solid 1px black;
+    cursor:pointer;
+    transition: background-color 1s ease-in-out;
+    transition: color 0.5s ease-in-out;
+    transition: border 0.5s ease-in-out;
+    border-radius:10px;
+
+}
+.arquivo:hover{
+    background-color:rgb(68, 136, 226);
+    color:#ffffff;
+    border: solid 1.5px #ffffff;
+
+
+}
+input[type='file']{
+    display:none;
+}
+.descriçao{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+input.desc{
+    width: 450px;
+    height:300px;
+}
+textarea#perfil1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:10pt;
+    padding-top:10px;
+    padding-left:20px;
+    display: block;
+    border-radius: 10px;
+}
+textarea:focus{
+    outline:none;
+    border: solid 2px rgb(68, 136, 226);
+}
+.botao .bot{
+    padding:15px 20px 15px 20px;
+    background-color: rgb(18, 43, 77);
+    border:none;
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+input[type="submit"]:hover{
+    background-color: rgb(68, 136, 226);
+
+}
+.botao{
+    padding-bottom: 20px;
+}
+footer p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12pt
+
+}
+div.curPrev{
+    padding-left:200px;
+    
+}
+.cartaoUsu{
+    display: inline-block;
+    margin: 6px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #d4eeff;
+    color:rgba(51, 172, 82, 0.685);
+    border: 5px dashed rgba(51, 172, 82, 0.685);
+    max-width: 250px;
+
+}
+
+.h1edit{
+    font-size: 25px;
+    color:rgb(68, 136, 226);
+    display: inline-block;
+    padding:3px;
+    margin:0px;
+    
+}
+
+.pEmail{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#000000;
+    margin:0px
+}
+
+.pVaga{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#000000;
+}
+
+.pDescri{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#000000;
+    line-height:15px;
+}
+
+
+
